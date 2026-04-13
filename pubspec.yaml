@@ -1,0 +1,61 @@
+name: hero_universe_app
+description: A fan-made cinematic gallery project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  rxdart: ^0.27.0
+  http: ^0.13.0
+  video_player: ^2.0.0
+  fluro: ^2.0.0
+  shared_preferences: ^2.2.2
+  youtube_player_iframe: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/images/
+   - assets/video/
+   - assets/images/app_logo.png
+   - assets/images/app_icon.png
+   - assets/images/1.5x/app_icon.png
+   - assets/images/2.0x/app_icon.png
+   - assets/images/3.0x/app_icon.png
+   - assets/images/4.0x/app_icon.png
+   - assets/video/app_intro.mp4
+   - assets/video/end_game.mp4
+   - assets/video/iron_man.mp4
+   - assets/video/no_way_home.mp4
+   - assets/video/love_and_thunder.mp4
+   - assets/images/end_game.jpg
+   - assets/images/iron_man.jpg
+   - assets/images/no_way_home.jpg
+   - assets/images/love_and_thunder.jpg
+   - screenshots/
+  fonts:
+    - family: GoogleSans
+      fonts:
+        - asset: assets/fonts/product-sans/regular.ttf
+          weight: 400
+        - asset: assets/fonts/product-sans/bold.ttf
+          weight: 700
+        - asset: assets/fonts/product-sans/bold-italic.ttf
+          style: italic
+          weight: 700
+        - asset: assets/fonts/product-sans/medium.ttf
+          weight: 600
+        - asset: assets/fonts/product-sans/medium-italic.ttf
+          style: italic
+          weight: 600
+        - asset: assets/fonts/product-sans/italic.ttf
+          style: italic
